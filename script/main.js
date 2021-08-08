@@ -171,7 +171,7 @@ const animationTimeline = () => {
     )
     .staggerFromTo(
       ".baloons img",
-      2.5,
+      1,
       {
         opacity: 0.9,
         y: 1400
@@ -256,7 +256,7 @@ const animationTimeline = () => {
       y: 30,
       zIndex: "-1"
     })
-    .staggerFrom(".nine p", 1, ideaTextTrans, 1.2)
+    .staggerFrom(".nine", 1, ideaTextTrans, 1.2)
     .to(
       ".last-smile",
       0.5,
