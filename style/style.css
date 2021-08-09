@@ -288,12 +288,14 @@ body {
 
   .six .hat {
     width: 50px;
-    top: -20px;
+    top: 5px !important;
   }
 
   .wish-hbd {
-    font-size: 2.2em;
+    font-size: 1.8em;
+    margin-left: -6rem !important;
   }
+
 
   .wish h5 {
     font-size: 1.4rem;
@@ -334,3 +336,10 @@ input[type=submit]:hover {
   margin-right: -6rem !important;
 }
 
+#wishText{
+  margin-left: -6rem !important;
+}
+
+.hat{
+  top: 5px !important;
+}
